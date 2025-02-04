@@ -1,5 +1,8 @@
 .ful{
  background-color: aquamarine;
+ height: 100%;
+ 
+ 
 }
 .top{
     display: flex;
@@ -143,6 +146,8 @@
   flex: 1;
   width: 40px;
   margin-left: 20px;
+  
+  
 }
 
 .image-box img,.image-box2 img,.image-box3 img {
@@ -172,3 +177,127 @@
     background-color: #16d8b4;
 
 }
+.fol{
+  margin-left: 50%;
+  margin-top: 10px;
+}
+
+
+
+.instagram {  
+  
+  width: 30px;
+  height: 30px;
+  background: url('ins.png') no-repeat center;
+  background-size: contain;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 50%;
+  margin-bottom: 10px;
+  
+  
+  
+ }
+
+.facebook {
+  width: 30px;
+  height: 30px;
+  background: url('fac.png') no-repeat center;
+  background-size: contain;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+
+}
+.twitter { 
+  width: 30px;
+  height: 30px;
+  background: url('x.png') no-repeat center;
+  background-size: contain;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+}
+
+.ful2{
+    background-color: rgb(197, 141, 204);
+}
+.top2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-image:url(bri.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;
+    
+
+}
+.tit{
+    margin-right: 50%;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+    
+  }
+
+.but{
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 20px;
+  background-color: rgb(103, 166, 221);
+ 
+}
+
+.description-box4{
+  flex: 1;
+  width: 60%;
+  height: 300px; /* Set a height to make it scrollable */
+  overflow-y: auto;
+  padding: 40px;
+  border: 2px solid #140f0f;
+  border-radius: 10px;
+  background-color: #89d0d2;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+.top3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-image:url(raj.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;
+  
+    
+}
+.tit1{
+    margin-right: 30%;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(1, 8, 14);
+}
+.top4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-image:url(par.webp) ;
+  background-size: cover;
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;
+    
+}
+
+
+
